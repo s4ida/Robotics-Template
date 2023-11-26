@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  position: absolute;
+  background-color: transparent;
+  position: fixed;
+  z-index: 1;
+}
+header .container .navbar .navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .container .navbar .navdiv .uldiv {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+header .container .navbar .navdiv .uldiv ul li a {
+  color: white;
+  font-weight: 400;
+  font-size: 11px;
+}
+
+#entrance {
+  background-image: url(/assets/img/banner-bg.jpg);
+  padding: 30px;
+}
+#entrance .container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+#entrance .container .row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#entrance .container .row .textdiv h1 {
+  width: 500px;
+  font-size: 60px;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+#entrance .container .row .textdiv p {
+  color: white;
+  font-size: 15px;
+}
+#entrance .container .row .textdiv button {
+  width: 150px;
+  height: 50px;
+  border: none;
+  color: #3D2260;
+}
+#entrance .container .row .textdiv button:hover {
+  border: 2px solid white;
+  color: white;
+  background-color: transparent;
+  transition: 1s;
+}
+
+#robots .container {
+  margin-top: 30px;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+#robots .container .row {
+  margin-bottom: 30px;
+}
+#robots .container .row .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+#robots .container .row .aboutrobot {
+  background-color: #F9F9FF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 10px;
+}
+#robots .container .row .aboutrobot h5 {
+  font-weight: 700;
+}
+#robots .container .row .aboutrobot p {
+  color: #8F8FC3;
+}
+#robots .container .row .aboutrobot button {
+  border: none;
+  background-color: white;
+  font-weight: 700;
+  font-size: 15px;
+  width: 150px;
+  height: 40px;
+}
+#robots .container .row .aboutrobot button:hover {
+  background-color: rgb(154, 109, 196);
+  transition: 0.5s;
+}
+#robots .container .row .aboutrobot img {
+  background-color: white;
+}
+
+#features {
+  background-image: url(/assets/img/feature-bg.jpg);
+}
+#features .container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+#features .container .row .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+#features .container .row .title h1 {
+  color: white;
+}
+#features .container .row .title p {
+  color: white;
+}
+#features .container .row .informdiv {
+  background-color: white;
+  padding: 20px;
+  padding-left: 20px;
+  border: none;
+  border-radius: 10px;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+#features .container .row .informdiv h5 {
+  gap: 10px;
+}
+#features .container .row .informdiv h5 {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+#features .container .row .informdiv h5:hover {
+  color: rgb(86, 97, 211);
+  transition: 0.5s;
+}
+
+#blog .container {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+#blog .container .row .title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+#blog .container .row .title h1 {
+  color: black;
+}
+#blog .container .row .title p {
+  color: black;
+}
+#blog .container .row .blogdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 10px;
+}
+#blog .container .row .blogdiv img {
+  width: 100%;
+}
+#blog .container .row .blogdiv button {
+  border: none;
+  background-color: #8562b3;
+  color: white;
+  width: 80px;
+}
+#blog .container .row .blogdiv button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid #8562b3;
+  transition: 1s;
+}
+#blog .container .row .blogdiv p {
+  color: #8F8FC3;
+}
+
+footer {
+  background-image: url(/assets/img/footer-bg.jpg);
+}
+footer .container {
+  margin-top: 30px;
+  padding: 30px;
+}
+footer .container .row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+footer .container .row .textdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+footer .container .row .textdiv p {
+  font-size: 15px;
+}
+footer .container .row .buttons {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+footer .container .row .buttons button {
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  padding: 10px;
+  border: none;
+}
